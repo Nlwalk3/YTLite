@@ -198,7 +198,7 @@ jobs:
         if: ${{ inputs.enable_ytuhd }}
         uses: actions/checkout@v4.1.7
         with:
-          repository: PoomSmart/YTUHD
+          repository: Tonwalter888/YTUHD
           ref: 0f59b38817d554ab692a0053456319847a6ab1a1
           path: ${{ github.workspace }}/YTUHD
 
